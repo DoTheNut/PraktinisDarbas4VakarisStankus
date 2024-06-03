@@ -80,10 +80,10 @@ public class DigitalSignatureApp extends Application {
 
         if (providedSignature.equals(newSignature)) {
             resultLabel.setText("Parašas patvirtintas!");
-            resultLabel.setStyle("-fx-text-fill: green;");
+            resultLabel.setStyle("-fx-text-fill: #000000;");
         } else {
             resultLabel.setText("Parašas nepatvirtintas!");
-            resultLabel.setStyle("-fx-text-fill: red;");
+            resultLabel.setStyle("-fx-text-fill: #000000;");
         }
     }
 
